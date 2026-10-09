@@ -41,6 +41,85 @@ The **Lamborghini Rev Analytics** project bridges the gap between raw automotive
 
 ---
 
+## 🎬 Interactive Dashboard Video Walkthrough
+
+Experience the dynamic Lamborghini Power BI dashboard in action with fluid slicers, interactive tooltips, cross-filtering, and seamless page transitions:
+
+<div align="center">
+  <video controls="controls" width="100%">
+    <source src="assets/Dashboard Video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<p align="center">
+  <a href="assets/Dashboard Video.mp4">
+    <img src="https://img.shields.io/badge/📥_Download_or_Watch_Video-assets%2FDashboard%20Video.mp4-E0A92E?style=for-the-badge&logo=quicktime&logoColor=black" alt="Watch Video Direct" />
+  </a>
+</p>
+
+> [!TIP]
+> **GitHub Web Preview**: When viewing this repository on GitHub, click the video player above to stream directly in Full HD. If your browser blocks local HTML5 video playback, use the **[Direct Video File Link](assets/Dashboard%20Video.mp4)** above.
+
+### ⏱️ Video Highlights & Feature Timeline
+
+| Time Marker | Report View | Demonstrated Capabilities & Interactions |
+| :---: | :--- | :--- |
+| **0:00 – 0:15** | 🏎️ **Home / Specification Overview** | Dynamic KPI metric cards (Top Speed, Horsepower, 0–100 sprint times), automated CDN variant rendering upon trim selection. |
+| **0:15 – 0:30** | 🎛️ **Multi-Dimensional Slicing** | Real-time cross-filtering across Model lines (Urus, Huracán, Revuelto, Aventador), Sales Regions (Americas, EMEA, APAC), and Powertrain (ICE vs. Hybrid). |
+| **0:30 – 0:45** | 📊 **Sales & Revenue Analytics Hub** | Commercial metrics tracking ($ Volume, ASP, Grossing leaders), regional market share distributions, and hybridization growth. |
+| **0:45 – 1:00** | ⚙️ **Model Insights & Technical Matrix** | Side-by-side performance benchmarking and engineering attribute breakdown across 90+ classic and modern models. |
+
+---
+
+## 🖼️ Dashboard Showcase & Visual Experience
+
+### 1. Home / Specification & Performance Overview
+> **Core Focus**: High-level automotive engineering specs, peak performance benchmarks, and dynamic variant gallery.
+
+<div align="center">
+  <img src="assets/Home.png" alt="Lamborghini Dashboard - Home & Specs Overview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+</div>
+
+- **Visual Canvas**: Custom luxury dark-mode layout built on `Home Canva Background.png`.
+- **Key Visual Components**:
+  - ⚡ **Performance KPI Gauges**: Real-time cards for Max Horsepower, Peak Top Speed (km/h), Best 0–100 km/h sprint times, and Average Torque (Nm).
+  - 🏎️ **Dynamic Trim Selector & Gallery**: Live variant image rendering connected to high-resolution CDN assets.
+  - 📊 **Mechanical Matrix Table**: Granular breakdown of engine displacement (cc), cylinder configurations, transmission types, and drivetrain systems (AWD vs. RWD).
+
+---
+
+### 2. Commercial Sales & Revenue Hub
+> **Core Focus**: 2020–2025 Global commercial performance, revenue trajectories, regional market share, and hybridization adoption.
+
+<div align="center">
+  <img src="assets/Sales Hub.png" alt="Lamborghini Dashboard - Sales & Revenue Hub" width="100%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+</div>
+
+- **Visual Canvas**: Tailor-made executive canvas designed with `Sales Canva Background.png`.
+- **Key Visual Components**:
+  - 💵 **Financial Summary Cards**: Total Revenue ($), Total Deliveries, Average Selling Price (ASP), and Top Grossing Supercar Line.
+  - 🌍 **Geographical Sales Distribution**: Territory revenue share across **Americas**, **EMEA**, and **APAC**.
+  - 📈 **Yearly Commercial Trajectory (2020–2025)**: Tracking historical volume surges fueled by the Urus Super SUV and Revuelto rollout.
+  - 🔋 **Powertrain Transition Mix**: Visualizing the market transition from pure ICE to high-performance hybrids (HPEV / PHEV).
+
+---
+
+### 3. Model Insights & Technical Benchmarking
+> **Core Focus**: Comprehensive model-by-model technical benchmarking, engine architecture comparisons, and historical timeline analytics.
+
+<div align="center">
+  <img src="assets/Model Insights.png" alt="Lamborghini Dashboard - Model Insights & Deep Analysis" width="100%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+</div>
+
+- **Visual Canvas**: Unified luxury aesthetic engineered for high data density and readability.
+- **Key Visual Components**:
+  - 🏁 **Cross-Model Performance Benchmarking**: Side-by-side spec comparison across 90+ model variants from 1964 to present.
+  - ⏱️ **Sprint & Top Speed Curves**: Direct correlation between engine displacement, horsepower, and track acceleration.
+  - 🎯 **Multi-Dimensional Slicing**: Instant cross-filtering by model family (Aventador, Huracán, Urus, Revuelto, Countach, Diablo, Miura).
+
+---
+
 ## ✨ Key Features
 
 - 🎨 **Bespoke Glassmorphism & Luxury Canvas Design**: Tailor-made Canva background templates designed specifically for visual hierarchy, contrast, and KPI framing.
@@ -152,79 +231,6 @@ erDiagram
     SALES_DATA }|..|| CAR_SPECIFICATIONS : "Aggregates performance by Model/Year"
     CAR_SPECIFICATIONS ||--o{ FULL_CATALOG_SPECS : "Enriches technical depth"
 ```
-
----
-
-## 🎬 Interactive Dashboard Video Walkthrough
-
-Experience the dynamic Lamborghini Power BI dashboard in action with fluid slicers, interactive tooltips, cross-filtering, and seamless page transitions:
-
-<div align="center">
-  <video src="assets/Dashboard Video.mp4" width="100%" controls="controls">
-    Your browser does not support the video tag. <a href="assets/Dashboard Video.mp4"><b>Click here to view or download the Dashboard Walkthrough Video directly.</b></a>
-  </video>
-</div>
-
-<p align="center">
-  <sub><i>🎥 <b>Interactive Video Demo</b>: Demonstrating real-time KPI card responses, multi-select slicers (Year, Region, Fuel Type), and dual-view navigation.</i></sub>
-</p>
-
-### ⏱️ Video Highlights & Feature Timeline
-
-| Time Marker | Report View | Demonstrated Capabilities & Interactions |
-| :---: | :--- | :--- |
-| **0:00 – 0:15** | 🏎️ **Home / Specification Overview** | Dynamic KPI metric cards (Top Speed, Horsepower, 0–100 sprint times), automated CDN variant rendering upon trim selection. |
-| **0:15 – 0:30** | 🎛️ **Multi-Dimensional Slicing** | Real-time cross-filtering across Model lines (Urus, Huracán, Revuelto, Aventador), Sales Regions (Americas, EMEA, APAC), and Powertrain (ICE vs. Hybrid). |
-| **0:30 – 0:45** | 📊 **Sales & Revenue Analytics Hub** | Commercial metrics tracking ($ Volume, ASP, Grossing leaders), regional market share distributions, and hybridization growth. |
-| **0:45 – 1:00** | ⚙️ **Model Insights & Technical Matrix** | Side-by-side performance benchmarking and engineering attribute breakdown across 90+ classic and modern models. |
-
----
-
-## 🖼️ Dashboard Showcase & Visual Experience
-
-### 1. Home / Specification & Performance Overview
-> **Core Focus**: High-level automotive engineering specs, peak performance benchmarks, and dynamic variant gallery.
-
-<div align="center">
-  <img src="assets/Home.png" alt="Lamborghini Dashboard - Home & Specs Overview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
-</div>
-
-- **Visual Canvas**: Custom luxury dark-mode layout built on `Home Canva Background.png`.
-- **Key Visual Components**:
-  - ⚡ **Performance KPI Gauges**: Real-time cards for Max Horsepower, Peak Top Speed (km/h), Best 0–100 km/h sprint times, and Average Torque (Nm).
-  - 🏎️ **Dynamic Trim Selector & Gallery**: Live variant image rendering connected to high-resolution CDN assets.
-  - 📊 **Mechanical Matrix Table**: Granular breakdown of engine displacement (cc), cylinder configurations, transmission types, and drivetrain systems (AWD vs. RWD).
-
----
-
-### 2. Commercial Sales & Revenue Hub
-> **Core Focus**: 2020–2025 Global commercial performance, revenue trajectories, regional market share, and hybridization adoption.
-
-<div align="center">
-  <img src="assets/Sales Hub.png" alt="Lamborghini Dashboard - Sales & Revenue Hub" width="100%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
-</div>
-
-- **Visual Canvas**: Tailor-made executive canvas designed with `Sales Canva Background.png`.
-- **Key Visual Components**:
-  - 💵 **Financial Summary Cards**: Total Revenue ($), Total Deliveries, Average Selling Price (ASP), and Top Grossing Supercar Line.
-  - 🌍 **Geographical Sales Distribution**: Territory revenue share across **Americas**, **EMEA**, and **APAC**.
-  - 📈 **Yearly Commercial Trajectory (2020–2025)**: Tracking historical volume surges fueled by the Urus Super SUV and Revuelto rollout.
-  - 🔋 **Powertrain Transition Mix**: Visualizing the market transition from pure ICE to high-performance hybrids (HPEV / PHEV).
-
----
-
-### 3. Model Insights & Technical Benchmarking
-> **Core Focus**: Comprehensive model-by-model technical benchmarking, engine architecture comparisons, and historical timeline analytics.
-
-<div align="center">
-  <img src="assets/Model Insights.png" alt="Lamborghini Dashboard - Model Insights & Deep Analysis" width="100%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
-</div>
-
-- **Visual Canvas**: Unified luxury aesthetic engineered for high data density and readability.
-- **Key Visual Components**:
-  - 🏁 **Cross-Model Performance Benchmarking**: Side-by-side spec comparison across 90+ model variants from 1964 to present.
-  - ⏱️ **Sprint & Top Speed Curves**: Direct correlation between engine displacement, horsepower, and track acceleration.
-  - 🎯 **Multi-Dimensional Slicing**: Instant cross-filtering by model family (Aventador, Huracán, Urus, Revuelto, Countach, Diablo, Miura).
 
 ---
 
