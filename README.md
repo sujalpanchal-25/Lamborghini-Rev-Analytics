@@ -46,20 +46,10 @@ The **Lamborghini Rev Analytics** project bridges the gap between raw automotive
 Experience the dynamic Lamborghini Power BI dashboard in action with fluid slicers, interactive tooltips, cross-filtering, and seamless page transitions:
 
 <div align="center">
-  <video controls="controls" width="100%">
-    <source src="assets/Dashboard Video.mp4" type="video/mp4">
+  <video src="https://github.com/sujalpanchal-25/Lamborghini-Rev-Analytics/raw/main/assets/Dashboard%20Video.mp4" controls="controls" width="100%">
     Your browser does not support the video tag.
   </video>
 </div>
-
-<p align="center">
-  <a href="assets/Dashboard Video.mp4">
-    <img src="https://img.shields.io/badge/📥_Download_or_Watch_Video-assets%2FDashboard%20Video.mp4-E0A92E?style=for-the-badge&logo=quicktime&logoColor=black" alt="Watch Video Direct" />
-  </a>
-</p>
-
-> [!TIP]
-> **GitHub Web Preview**: When viewing this repository on GitHub, click the video player above to stream directly in Full HD. If your browser blocks local HTML5 video playback, use the **[Direct Video File Link](assets/Dashboard%20Video.mp4)** above.
 
 ### ⏱️ Video Highlights & Feature Timeline
 
