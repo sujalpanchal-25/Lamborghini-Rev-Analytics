@@ -1,10 +1,15 @@
-# 🏎️ Lamborghini Revenue & Performance Analytics Dashboard
+<div align="center">
+  <img src="assets/lamborghini_logo.png" alt="Lamborghini Crest Logo" width="140" />
 
-[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
-[![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-yellow?style=for-the-badge)](https://learn.microsoft.com/en-us/dax/)
-[![Canva Design](https://img.shields.io/badge/Canva-UI%2FUX_Design-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/)
-[![Data Visualization](https://img.shields.io/badge/Data_Viz-Interactive_Dashboards-FF4B4B?style=for-the-badge)](https://powerbi.microsoft.com/)
-[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
+  # 🏎️ Lamborghini Revenue & Performance Analytics Dashboard
+  ### ⚡ Next-Generation Commercial Intelligence & Supercar Engineering Benchmarks
+
+  [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+  [![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-yellow?style=for-the-badge)](https://learn.microsoft.com/en-us/dax/)
+  [![Canva Design](https://img.shields.io/badge/Canva-UI%2FUX_Design-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/)
+  [![Data Visualization](https://img.shields.io/badge/Data_Viz-Interactive_Dashboards-FF4B4B?style=for-the-badge)](https://powerbi.microsoft.com/)
+  [![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
+</div>
 
 An end-to-end **Business Intelligence & Supercar Analytics Dashboard** built in **Microsoft Power BI** paired with bespoke **Canva UI/UX layouts**. This project delivers in-depth commercial sales performance tracking (2020–2025) and deep technical specification benchmarking across Lamborghini’s entire historic and modern hypercar lineup (from the legendary 1964 350 GT to the groundbreaking 2025 Revuelto Hybrid & Urus SE).
 
@@ -164,6 +169,15 @@ Experience the dynamic Lamborghini Power BI dashboard in action with fluid slice
   <sub><i>🎥 <b>Interactive Video Demo</b>: Demonstrating real-time KPI card responses, multi-select slicers (Year, Region, Fuel Type), and dual-view navigation.</i></sub>
 </p>
 
+### ⏱️ Video Highlights & Feature Timeline
+
+| Time Marker | Report View | Demonstrated Capabilities & Interactions |
+| :---: | :--- | :--- |
+| **0:00 – 0:15** | 🏎️ **Home / Specification Overview** | Dynamic KPI metric cards (Top Speed, Horsepower, 0–100 sprint times), automated CDN variant rendering upon trim selection. |
+| **0:15 – 0:30** | 🎛️ **Multi-Dimensional Slicing** | Real-time cross-filtering across Model lines (Urus, Huracán, Revuelto, Aventador), Sales Regions (Americas, EMEA, APAC), and Powertrain (ICE vs. Hybrid). |
+| **0:30 – 0:45** | 📊 **Sales & Revenue Analytics Hub** | Commercial metrics tracking ($ Volume, ASP, Grossing leaders), regional market share distributions, and hybridization growth. |
+| **0:45 – 1:00** | ⚙️ **Model Insights & Technical Matrix** | Side-by-side performance benchmarking and engineering attribute breakdown across 90+ classic and modern models. |
+
 ---
 
 ## 🖼️ Dashboard Showcase & Visual Experience
@@ -225,6 +239,7 @@ Experience the dynamic Lamborghini Power BI dashboard in action with fluid slice
 │
 ├── 📂 assets/                                  # High-Resolution Media & Walkthrough Video
 │   ├── 🎥 Dashboard Video.mp4                  # Full HD Interactive Dashboard Walkthrough Video
+│   ├── 🛡️ lamborghini_logo.png                 # Official Lamborghini Shield Crest Logo
 │   ├── 🖼️ Home.png                             # Report Page 1: Home & Specification Overview
 │   ├── 🖼️ Sales Hub.png                        # Report Page 2: Commercial Sales & Revenue Hub
 │   └── 🖼️ Model Insights.png                   # Report Page 3: Model Insights & Performance Analytics
